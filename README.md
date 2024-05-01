@@ -27,11 +27,17 @@ The basic idea is that a subject will be asked to walk at a normal, comfortable 
 ## Background
 "Walking stability" may seem like a nebulous term, and even within the fields where the concept is most relevant, there is some debate over how to measure it. This project is acting under the understanding that a measure correlates with walking stability if it correlates negatively with actual fall incidence, but if you're curious and would like to learn more, this paper is a great place to start: https://royalsocietypublishing.org/doi/epdf/10.1098/rsif.2012.0999
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
 ## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+For usage on the Surface Pro, this project requires:
+- .NET8.0 SDK: https://dotnet.microsoft.com/en-us/download/dotnet/8.0
+- Editting of the "Stayball Server.csproj" file (more on that in a moment)
+- This may not be required, but the MATLAB code in this project was created on R2023b. 
+
+For usage with MATLAB Mobile:
+- The C# server is unnecessary in this case.
+- Edit experiment_gui.mlapp such that the appropriate sections (as outlined in the comments themselves) are either uncommented or commented for the usage you want. 
+
+
 
 ## Usage
 Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
