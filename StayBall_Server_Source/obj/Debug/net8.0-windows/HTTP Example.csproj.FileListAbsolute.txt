@@ -1,0 +1,4 @@
+C:\Users\aria\Desktop\HTTP Example\obj\Debug\net8.0-windows\HTTP Example.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aria\Desktop\HTTP Example\obj\Debug\net8.0-windows\HTTP Example.AssemblyInfoInputs.cache
+C:\Users\aria\Desktop\HTTP Example\obj\Debug\net8.0-windows\HTTP Example.AssemblyInfo.cs
+C:\Users\aria\Desktop\HTTP Example\obj\Debug\net8.0-windows\HTTP Example.csproj.CoreCompileInputs.cache

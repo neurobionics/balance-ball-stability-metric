@@ -1,0 +1,17 @@
+C:\Users\aria\Desktop\HTTP Example\bin\Debug\net8.0-windows10.0.22000.0\HTTP Example.exe
+C:\Users\aria\Desktop\HTTP Example\bin\Debug\net8.0-windows10.0.22000.0\HTTP Example.deps.json
+C:\Users\aria\Desktop\HTTP Example\bin\Debug\net8.0-windows10.0.22000.0\HTTP Example.runtimeconfig.json
+C:\Users\aria\Desktop\HTTP Example\bin\Debug\net8.0-windows10.0.22000.0\HTTP Example.dll
+C:\Users\aria\Desktop\HTTP Example\bin\Debug\net8.0-windows10.0.22000.0\HTTP Example.pdb
+C:\Users\aria\Desktop\HTTP Example\bin\Debug\net8.0-windows10.0.22000.0\Microsoft.Windows.SDK.NET.dll
+C:\Users\aria\Desktop\HTTP Example\bin\Debug\net8.0-windows10.0.22000.0\WinRT.Runtime.dll
+C:\Users\aria\Desktop\HTTP Example\obj\Debug\net8.0-windows10.0.22000.0\HTTP Example.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aria\Desktop\HTTP Example\obj\Debug\net8.0-windows10.0.22000.0\HTTP Example.AssemblyInfoInputs.cache
+C:\Users\aria\Desktop\HTTP Example\obj\Debug\net8.0-windows10.0.22000.0\HTTP Example.AssemblyInfo.cs
+C:\Users\aria\Desktop\HTTP Example\obj\Debug\net8.0-windows10.0.22000.0\HTTP Example.csproj.CoreCompileInputs.cache
+C:\Users\aria\Desktop\HTTP Example\obj\Debug\net8.0-windows10.0.22000.0\HTTP Exa.72EFE62D.Up2Date
+C:\Users\aria\Desktop\HTTP Example\obj\Debug\net8.0-windows10.0.22000.0\HTTP Example.dll
+C:\Users\aria\Desktop\HTTP Example\obj\Debug\net8.0-windows10.0.22000.0\refint\HTTP Example.dll
+C:\Users\aria\Desktop\HTTP Example\obj\Debug\net8.0-windows10.0.22000.0\HTTP Example.pdb
+C:\Users\aria\Desktop\HTTP Example\obj\Debug\net8.0-windows10.0.22000.0\HTTP Example.genruntimeconfig.cache
+C:\Users\aria\Desktop\HTTP Example\obj\Debug\net8.0-windows10.0.22000.0\ref\HTTP Example.dll

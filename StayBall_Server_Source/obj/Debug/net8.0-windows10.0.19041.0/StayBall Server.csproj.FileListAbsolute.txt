@@ -1,0 +1,17 @@
+C:\Users\aria\Desktop\HTTP Example\bin\Debug\net8.0-windows10.0.19041.0\StayBall Server.exe
+C:\Users\aria\Desktop\HTTP Example\bin\Debug\net8.0-windows10.0.19041.0\StayBall Server.deps.json
+C:\Users\aria\Desktop\HTTP Example\bin\Debug\net8.0-windows10.0.19041.0\StayBall Server.runtimeconfig.json
+C:\Users\aria\Desktop\HTTP Example\bin\Debug\net8.0-windows10.0.19041.0\StayBall Server.dll
+C:\Users\aria\Desktop\HTTP Example\bin\Debug\net8.0-windows10.0.19041.0\StayBall Server.pdb
+C:\Users\aria\Desktop\HTTP Example\bin\Debug\net8.0-windows10.0.19041.0\Microsoft.Windows.SDK.NET.dll
+C:\Users\aria\Desktop\HTTP Example\bin\Debug\net8.0-windows10.0.19041.0\WinRT.Runtime.dll
+C:\Users\aria\Desktop\HTTP Example\obj\Debug\net8.0-windows10.0.19041.0\StayBall Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aria\Desktop\HTTP Example\obj\Debug\net8.0-windows10.0.19041.0\StayBall Server.AssemblyInfoInputs.cache
+C:\Users\aria\Desktop\HTTP Example\obj\Debug\net8.0-windows10.0.19041.0\StayBall Server.AssemblyInfo.cs
+C:\Users\aria\Desktop\HTTP Example\obj\Debug\net8.0-windows10.0.19041.0\StayBall Server.csproj.CoreCompileInputs.cache
+C:\Users\aria\Desktop\HTTP Example\obj\Debug\net8.0-windows10.0.19041.0\StayBall.9836E049.Up2Date
+C:\Users\aria\Desktop\HTTP Example\obj\Debug\net8.0-windows10.0.19041.0\StayBall Server.dll
+C:\Users\aria\Desktop\HTTP Example\obj\Debug\net8.0-windows10.0.19041.0\refint\StayBall Server.dll
+C:\Users\aria\Desktop\HTTP Example\obj\Debug\net8.0-windows10.0.19041.0\StayBall Server.pdb
+C:\Users\aria\Desktop\HTTP Example\obj\Debug\net8.0-windows10.0.19041.0\StayBall Server.genruntimeconfig.cache
+C:\Users\aria\Desktop\HTTP Example\obj\Debug\net8.0-windows10.0.19041.0\ref\StayBall Server.dll
