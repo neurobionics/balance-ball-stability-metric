@@ -1,5 +1,5 @@
 ﻿// Setting the windows version:
-// Go to 'HTTP Example.csproj'
+// Go to 'StayBall Server.csproj'
 // Edit <TargetFramework>net8.0-windows10.0.22000.0</TargetFramework>
 // and replace the windows10.0.22000.0 with right windows version
 
