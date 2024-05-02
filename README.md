@@ -20,9 +20,12 @@ For usage on the Surface Pro, this project requires:
 
 For usage with MATLAB Mobile:
 - The C# server is unnecessary in this case.
+- Install MATLAB Mobile on a phone, using the same account as the computer you are running experiment_gui from and logged into the same wifi.
 - Edit experiment_gui.mlapp such that the appropriate sections (as outlined in the comments themselves) are either uncommented or commented for the usage you want. 
 
-(in progress)
+Editting "StayBall Server.csproj":
+- The file is found within StayBall_Server_Source in this repo
+- 
 
 ## Usage
 
