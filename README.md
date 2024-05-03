@@ -12,24 +12,33 @@ The basic idea is that a subject will be asked to walk at a normal, comfortable 
 ## Background
 "Walking stability" may seem like a nebulous term, and even within the fields where the concept is most relevant, there is some debate over how to measure it. This project is acting under the understanding that a measure correlates with walking stability if it correlates negatively with actual fall incidence, but if you're curious and would like to learn more, this paper is a great place to start: https://royalsocietypublishing.org/doi/epdf/10.1098/rsif.2012.0999
 
+## What's Inside?
+
+
 ## Installation
 For usage on the Surface Pro, this project requires:
-- .NET8.0 SDK: https://dotnet.microsoft.com/en-us/download/dotnet/8.0
-- Editting of the "Stayball Server.csproj" file (more on that in a moment)
-- This may not be required, but the MATLAB code in this project was created on R2023b. 
+- .NET8.0 SDK: https://dotnet.microsoft.com/en-us/download/dotnet/8.0 installed on said Surface Pro.
+- MATLAB. This was coded in R2023b.
 
 For usage with MATLAB Mobile:
 - The C# server is unnecessary in this case.
 - Install MATLAB Mobile on a phone, using the same account as the computer you are running experiment_gui from and logged into the same wifi.
 - Edit experiment_gui.mlapp such that the appropriate sections (as outlined in the comments themselves) are either uncommented or commented for the usage you want. 
 
-Editting "StayBall Server.csproj":
-- The file is found within StayBall_Server_Source in this repo
-- 
-
 ## Usage
 
 (in progress)
+
+## Known Issues
+
+### TargetFramework Issues and Editting "StayBall Server.csproj":
+
+- Just in case something gets messed up with the framework targetting or the Surface gets a new version of Windows, I've included this. Basically, if you need to change the version of Windows that the data server targets, you'll first need to find which version of Windows you're running. This can be achieved by navigating to __System Information__:
+![alt text](images/system_info.png?raw=true "sysinfo") 
+and checking the underlined values. 
+- The file you need ("Stayball Server.csproj") to edit is found within StayBall_Server_Source in this repo. To open it, you should open the associated solution ("StayBall Server.sln") in Visual Studio. The .csproj should look like this if you open it: 
+![alt text](images/framework_edit.png?raw=true "framework")
+The line you need to edit is underlined here, and your input should take the form of "net8.0-windows10.0.{your build}.0". Fortunately, if you do something wrong here, when you build and try to run the server, it will spit out an error which lists the acceptible inputs. Just use the one that's closest to your build, but not higher (later) than.
 
 ## Authors and acknowledgment
 Thank you to Kevin Best, the advisor for this project as a ROB 590 independent study at UMich.
