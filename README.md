@@ -36,7 +36,7 @@ For usage on the Surface Pro, this project requires:
 
 For usage with MATLAB Mobile:
 - The C# server is unnecessary in this case.
-- Install MATLAB Mobile on a phone, using the same account as the computer you are running experiment_gui from and logged into the same wifi.
+- Install MATLAB Mobile on a phone, using the same account as the computer you are running __experiment_gui_mobile.mlapp__ from and logged into the same wifi.
 - You should otherwise only need __experiment_gui_mobile.mlapp__ to run in this configuration.
 
 ## Usage
