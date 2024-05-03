@@ -60,8 +60,8 @@ The functionality in the app is fairly simple and self-explanatory, but here's t
 - The __blue circle__ marks the current location of the modeled "ball rolling on a tilted plane" that is the basis for this app. 
 
 The goal of a test subject should be to tilt the Surface Pro or smartphone screen to keep the __blue circle__ as close as possible to the __green star__ for the duration of the test, which is modifiable in `BeginTestButtonPushed` as the value of `app.event_duration`.
-- The "Begin Test" button will reset the __blue circle__'s position to (0,0), trigger a short countdown, and then begin recording test data and counting down the remaining test time (set as detailed above). At the end of this duration, a short prompt will pop up on screen and the recorded data will be saved, after which the app will return to "idle" state, which is the state it launches in. 
-- The "Begin Practice" button will reset the __blue circle__'s position to (0,0), trigger a short countdown, and then for the `app.event_duration` set in `BeginPracticeButtonPushed`, the __green star__'s location will be randomized within ([-3,3],[-3,3]) every `app.practice_interval` seconds. The purpose of this is to act as an acclimation period to get subjects used to the dynamics of the app.
+- The "Begin Test" button will trigger a short countdown, reset the __blue circle__'s position to (0,0), and then begin recording test data and counting down the remaining test time (set as detailed above). At the end of this duration, a short prompt will pop up on screen and the recorded data will be saved, after which the app will return to "idle" state, which is the state it launches in. 
+- The "Begin Practice" button will trigger a short countdown, reset the __blue circle__'s position to (0,0), and then for `app.event_duration` seconds, set in `BeginPracticeButtonPushed`, the __green star__'s location will be randomized within ([-3,3],[-3,3]) every `app.practice_interval` seconds. The purpose of this is to act as an acclimation period to get subjects used to the dynamics of the app.
 
 ## Known Issues
 
