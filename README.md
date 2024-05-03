@@ -19,31 +19,40 @@ This experiment is intended for use on a Microsoft Surface Pro, specifically the
 ## What's Inside?
 
 So, a tour of this repo!
--__StayBall Server Release/__ holds the executable for the data server for this project. This is the program that reads accelerometer data from the Surface Pro and sends it to the MATLAB app that does most of the work for this project.
--__StayBall_Server_Source/__ holds the source code for the .NET solution that the above is compiled from. This is included in case you need to make any changes to the data server for any reason.
--__archive/__ holds some older versions of some bits and pieces of this project, warts and all. It's mostly there as a curiosity, and not a lot of note can be gleaned, but it might be interesting to someone.
--__images/__ just holds the images used in this document. Nothing special.
--__analysis.m__ is a small piece of MATLAB code that might be useful in troubleshooting the StayBall Server, because all it does is send a request and print its value, as opposed to requests embedded in a looping MATLAB script.
--__experiment_gui.mlapp__ is the MATLAB script for the actual StayBall Tester app. It's the brains of the operation, where our calculations and UI happen.
+- __StayBall Server Release/__ holds the executable for the data server for this project. This is the program that reads accelerometer data from the Surface Pro and sends it to the MATLAB app that does most of the work for this project.
+- __StayBall_Server_Source/__ holds the source code for the .NET solution that the above is compiled from. This is included in case you need to make any changes to the data server for any reason.
+- __archive/__ holds some older versions of some bits and pieces of this project, warts and all. It's mostly there as a curiosity, and not a lot of note can be gleaned, but it might be interesting to someone.
+- __images/__ just holds the images used in this document. Nothing special.
+- __analysis.m__ is a small piece of MATLAB code that might be useful in troubleshooting the StayBall Server, because all it does is send a request and print its value, as opposed to requests embedded in a looping MATLAB script.
+- __experiment_gui.mlapp__ is the MATLAB script for the actual StayBall Tester app. It's the brains of the operation, where our calculations and UI happen.
 
 ## Installation
 For usage on the Surface Pro, this project requires:
 - .NET8.0 SDK: https://dotnet.microsoft.com/en-us/download/dotnet/8.0 installed on said Surface Pro.
 - MATLAB. This was coded in R2023b.
-- You need both StayBall
+- You need at least __StayBall Server Release/__ and __experiment_gui.mlapp__ to run in this configuration.
 
 For usage with MATLAB Mobile:
 - The C# server is unnecessary in this case.
 - Install MATLAB Mobile on a phone, using the same account as the computer you are running experiment_gui from and logged into the same wifi.
+- You should otherwise only need __experiment_gui.mlapp__ to run in this configuration.
 - Edit experiment_gui.mlapp such that the appropriate sections (as outlined in the comments themselves) are either uncommented or commented for the usage you want. 
 
 ## Usage
 
 ### Launch on Surface Pro
 
-To launch this app, you will want to launch the server first, and when that is up and running, then you will launch the MATLAB app.
+To launch in this configuration, you will want to launch the server first, and when that is up and running, then you will launch the MATLAB app.
 
-To launch the server, you will want to open up PowerShell and navigate to the directory that holds
+To launch the server, you will want to open up PowerShell and navigate to the directory that holds __StayBall Server.exe__ and use the command ` & '.\StayBall Server.exe'`. No output is the expected behavior here, and it will look like the command line is waiting for you. This means the server is running. After this, all you should need to do is run __experiment_gui.mlapp__!
+
+### Launch Using MATLAB Mobile
+
+To launch in this configuration, you just need to make sure your phone is open to MATLAB Mobile at the moment when __experiment_gui.mlapp__ tries to connect to it. This happens within the first few seconds after launching the app, so as long as MATLAB Mobile is open when you hit "Run", it should work fine.
+
+### Using the app
+
+(in progress)
 
 ## Known Issues
 
