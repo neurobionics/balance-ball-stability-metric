@@ -47,16 +47,18 @@ class Program {
     static void RunServer() {
         HttpListener listener = new HttpListener();
         // This sets the URL that MATLAB will use to request data
-        listener.Prefixes.Add("http://localhost:5000/");
+        string listeningAddress = "http://localhost:5000/";
+        listener.Prefixes.Add(listeningAddress);
         listener.Start();
-
+        Console.WriteLine("Server started and waiting for accelerometer requests from " + listeningAddress + ".");
+        Stopwatch stopWatch = new Stopwatch();
         while (listener.IsListening) {
             // Wait for a request
             HttpListenerContext context = listener.GetContext();
 
-            Stopwatch stopWatch = new Stopwatch();
-            stopWatch.Start();
-
+            stopWatch.Reset();
+            stopWatch.Start(); 
+            
             HttpListenerRequest request = context.Request;
             HttpListenerResponse response = context.Response;
             
@@ -75,7 +77,7 @@ class Program {
             response.OutputStream.Close();
             stopWatch.Stop();
 
-            Console.WriteLine("Took " + stopWatch.ElapsedMilliseconds + " millis to resolve request");
+            Console.WriteLine("Took " + stopWatch.ElapsedMilliseconds + " millis to resolve request. X:" + data.X + " Y:" + data.Y + " Z:" + data.Z);
         }
     }
 
